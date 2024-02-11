@@ -21,6 +21,9 @@ export default {
              <router-link class="nav-link" to="/users">Users</router-link>
            </li>
            <li class="nav-item">
+             <router-link class="nav-link" to="/calc">Calculator</router-link>
+           </li>
+           <li class="nav-item">
              <router-link class="nav-link" to="/posts">Posts</router-link>
            </li>
 

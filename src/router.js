@@ -7,8 +7,10 @@ import PostAll from "@/pages/posts/PostAll.vue";
 import PostShow from "@/pages/posts/PostShow.vue";
 import PostCreate from "@/pages/posts/PostCreate.vue";
 import PostEdit from "@/pages/posts/PostEdit.vue";
+import HomeCalc from "@/pages/calc/HomeCalc.vue";
 const routes = [
     {path:"/",name:"homePage",component:HomePage},
+    {path:"/calc",name:"homeCalc",component:HomeCalc},
     {path:"/users",name:"users",component:TemplateUser, children:[
             {path:"",name:"users",component:IndexUsers},
             {path:":id",name:"userId",component:ShowUser},
